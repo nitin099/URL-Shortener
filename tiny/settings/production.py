@@ -25,7 +25,7 @@ SECRET_KEY = 'agbvx34ybt6)6(x^giy!94gha38@vt%fv+on&zgnc+_y#mm&u('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["tirr.com", "www.tirr.com"]
+ALLOWED_HOSTS = ["smallisgood.herokuapp.com"]
 
 
 # Application definition
