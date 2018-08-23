@@ -130,3 +130,4 @@ STATIC_URL = '/static/'
 
 SHORTCODE_MAX = 15
 SHORTCODE_MIN = 6
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
