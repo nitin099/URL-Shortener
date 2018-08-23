@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block styles %}
+<style>
+body {
+	background-color: #226268;
+	background-image: url(https://wallpaperwire.com/wp-content/uploads/2018/03/Elephant-Wallpapers-HD-Pictures-31.jpg);
+	background-size: cover;
+}	
+
+</style>
+
+{% endblock styles %}
+
+
+{% block content %}
+<br><br>
+<br>
+<div class="col-sm-8 col-sm-offset-4">
+	<h1> {{ title }}</h1>
+		<form method="POST" action="."> {% csrf_token %}
+			{{ form.as_p }}
+			<input class="btn btn-primary" type="submit" value="Shorten &raquo;">
+		</form>
+</div>
+{% endblock content %}
